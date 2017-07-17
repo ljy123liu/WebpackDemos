@@ -70,19 +70,39 @@
 /* 0 */
 /***/ (function(module, exports) {
 
+
+// module.exports = function() {
+// 	var obj = new Object();
+// 	obj.first = "npm init";
+// 	obj.second = "npm --save-dev webpack";
+// 	obj.three = "npm script 执行 webpack命令";
+// 	return obj;
+// }
+
 var obj = new Object();
-obj.name = 'ljy';
-obj.age = 18;
+	obj.first = "npm init";
+	obj.second = "npm --save-dev webpack";
+	obj.three = "npm script 执行 webpack命令";
 module.exports = obj;
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var twoObj = __webpack_require__(0);
+var two = __webpack_require__(0);
+console.log(two.first);
+document.write("i am index.js");
+document.write("<br>");
+document.write(two.first);
+document.write("<br>");
+document.write(two.second);
+document.write("<br>");
+document.write(two.three);
+document.write("<br>");
+document.write(two.three);
 
-document.write('<div>111</div>')
-console.log(twoObj.name);
+
+
 
 /***/ })
 /******/ ]);
