@@ -9,5 +9,9 @@ document.write("<br>");
 document.write(two.three);
 document.write("<br>");
 document.write(two.four);
+document.write("<br>");
+document.write(two.five);
+document.write("<br>");
+document.write(two.six);
 
 
