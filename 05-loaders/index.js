@@ -14,4 +14,10 @@ document.write(two.five);
 document.write("<br>");
 document.write(two.six);
 
+import React from 'react';
+import {render} from 'react-dom';
+import Greeter from './Greeter';
+
+render(<Greeter />, document.getElementById('root'));
+
 

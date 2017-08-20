@@ -16,5 +16,4 @@ var obj = new Object();
 	obj.four = "npm script 执行 webpack命令";
 	obj.five = "npm install --save-dev json-loader(安装可以装换JSON的loader)";
 	obj.six = config.greetText;
-	obj.seven = "npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react (npm一次性安装多个依赖模块，模块之间用空格隔开)";
 module.exports = obj;
